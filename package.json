@@ -11,11 +11,9 @@
     "url": "git+https://github.com/usmansbk/Andela_Bootcamp_day_2_CodingLab.git"
   },
   "keywords": [
-    "[",
-    "\"jasmine\"",
-    "\"javascript\"",
-    "\"tdd\"",
-    "]"
+    "jasmine",
+    "javascript",
+    "tdd",
   ],
   "author": "Usman Babakolo",
   "license": "ISC",
