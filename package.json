@@ -1,0 +1,26 @@
+{
+  "name": "car",
+  "version": "1.0.0",
+  "description": "A car class that can be used to instantiate various vehicles.",
+  "main": "car.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmansbk/Andela_Bootcamp_day_2_CodingLab.git"
+  },
+  "keywords": [
+    "[",
+    "\"jasmine\"",
+    "\"javascript\"",
+    "\"tdd\"",
+    "]"
+  ],
+  "author": "Usman Babakolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usmansbk/Andela_Bootcamp_day_2_CodingLab/issues"
+  },
+  "homepage": "https://github.com/usmansbk/Andela_Bootcamp_day_2_CodingLab#readme"
+}
