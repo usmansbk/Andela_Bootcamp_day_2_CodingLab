@@ -1,11 +1,12 @@
 function words(string) {
-	wordsList = string.split(" ");
+	wordsList = string.match(/\S+/g);
 	wordsCount = {};
 	for (let i = 0; i < wordsList.length; i++) {
-		if (wordsCount[wordsList[i]]) {
-			wordsCount[wordsList[i]] += 1;
+		let word = wordsList[i];
+		if (wordsCount[word]) {
+			wordsCount[word] += 1;
 		} else {
-			wordsCount[wordsList[i]] = 1;
+			wordsCount[word] = 1;
 		}
 	}
 	return wordsCount;
