@@ -1,5 +1,5 @@
 class Car {
-	constructor(name, model) {
+	constructor(name, model, type) {
 		if (name === undefined) {
 			this.name = 'General';
 		} else {
@@ -16,10 +16,25 @@ class Car {
 		} else {
 			this.numOfDoors = 4;
 		}
+
+		if (type === 'trailer') {
+			this.numOfWheels = 8;
+			this.isSaloon = false;
+			this.speed = '0 km/h';
+			this.type = 'trailer';
+		} else {
+			this.numOfWheels = 4;
+			this.isSaloon = true;
+		}
 	}
 
 	drive(gear) {
-		this.speed = `${50 * gear} km/h`;
+		if (this.type === 'trailer') {
+			this.speed = `${11 * gear} km/h`;
+		} else {
+			this.speed = `${50 * gear} km/h`;
+		}
+		return this;
 	}
 }
 
