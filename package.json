@@ -1,8 +1,8 @@
 {
-  "name": "car",
+  "name": "words",
   "version": "1.0.0",
-  "description": "A car class that can be used to instantiate various vehicles.",
-  "main": "car.js",
+  "description": "A function called words that takes in a sring argument and counts the occurences of each word in the string.",
+  "main": "words.js",
   "scripts": {
     "test": "jasmine"
   },
@@ -11,9 +11,8 @@
     "url": "git+https://github.com/usmansbk/Andela_Bootcamp_day_2_CodingLab.git"
   },
   "keywords": [
-    "jasmine",
     "javascript",
-    "tdd",
+    "jasmine"
   ],
   "author": "Usman Babakolo",
   "license": "ISC",
